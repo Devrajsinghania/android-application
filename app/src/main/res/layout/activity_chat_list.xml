@@ -3,6 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:gravity="centre"                                            
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context="com.proximussociety.prox.ChatList">
@@ -10,12 +12,17 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/app_bar"
         android:layout_width="match_parent"
+        android:layout_marginTop="10dp"                                        
         android:layout_height="@dimen/app_bar_height"
         android:fitsSystemWindows="true"
+         android:marginLeft="20dp"                                                
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_layout"
+            android:layout_marginTop="10dp"
+            android:marginLeft="20dp"                                                   
+            android:gravity="centre"                                                              
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fitsSystemWindows="true"
@@ -24,6 +31,9 @@
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
+                android:layout_marginTop="10dp"
+                 android:marginLeft="20dp"                                       
+                android:gravity="centre"                                           
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 app:layout_collapseMode="pin"
